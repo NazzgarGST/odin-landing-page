@@ -15,8 +15,42 @@
     padding: 24px 512px 128px 512px;
 }
 
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo {
     font-size: 24px;
+}
+
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 64px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.lower {
+    display: flex;
+    margin-top: 96px;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    align-items: start;
 }
 
 .hero {
@@ -27,10 +61,12 @@
     flex: 1;
 }
 
-a {
-    list-style: none;
-    text-decoration: none;
-    color: white;
+.sub-hero {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 512px;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 button {
@@ -43,50 +79,8 @@ button {
     border-style: none;
 }
 
-.sub-hero {
-    font-size: 18px;
-    color: #e5e7eb;
-    max-width: 512px;
-    flex-wrap: wrap;
-    flex: 1;
-}
-
-.links {
-    font-size: 18px;
-    color: #e5e7eb;
-    display: flex;
-    gap: 64px;
-}
-
-.lower {
-    display: flex;
-    margin-top: 96px;
-    justify-content: space-between;
-    flex-shrink: 1;
-}
-
-.upper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .img_fun img {
     flex: 1;
-}
-
-.header_text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
-    align-items: start;
-}
-
-.title1{
-    font-weight: 900;
-    font-size: 36px;
-    color: #1f2937;
 }
 
 .info{
@@ -97,10 +91,21 @@ button {
     align-items: center;
 }
 
-.sub_text{
+.mid{
+    margin: 64px 0px 128px 0px;
+    display: flex;
+    gap: 64px;
+}
+
+.title1{
+    font-weight: 900;
+    font-size: 36px;
     color: #1f2937;
-    width: 256px;
-    border-radius: 16px;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -111,16 +116,11 @@ button {
     border-radius: 16px;
 }
 
-.images{
-    display: flex;
-    flex-direction: column;
+.sub_text{
+    color: #1f2937;
+    width: 256px;
+    border-radius: 16px;
     flex-wrap: wrap;
-}
-
-.mid{
-    margin: 64px 0px 128px 0px;
-    display: flex;
-    gap: 64px;
 }
 
 .quotes_text{
@@ -153,13 +153,14 @@ button {
     justify-content: space-between;
     align-items: center;
 }
-.bigger_button{
-    border: white solid 2px;
-}
 
 .heading_button{
     font-weight: bold;
     font-size: 24px;
+}
+
+.bigger_button{
+    border: white solid 2px;
 }
 
 .footer{
