@@ -46,7 +46,7 @@ button {
 .sub-hero {
     font-size: 18px;
     color: #e5e7eb;
-    width: 512px;
+    max-width: 512px;
     flex-wrap: wrap;
     flex: 1;
 }
@@ -75,7 +75,7 @@ button {
     flex: 1;
 }
 
-.footer_text {
+.header_text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,8 +99,7 @@ button {
 
 .sub_text{
     color: #1f2937;
-    height: 256px;
-    width: 262px;
+    width: 256px;
     border-radius: 16px;
     flex-wrap: wrap;
 }
@@ -113,13 +112,60 @@ button {
 }
 
 .images{
-    border: 1px red solid;
     display: flex;
-    gap: 64px;
+    flex-direction: column;
     flex-wrap: wrap;
 }
-.texts{
-    border: 1px red solid;
+
+.mid{
+    margin: 64px 0px 128px 0px;
     display: flex;
     gap: 64px;
+}
+
+.quotes_text{
+    padding: 128px 768px 128px 768px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoting{
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.authors{
+    display: flex;
+    color: black;
+    justify-content: end;
+    font-weight: 700;
+}
+
+.button{
+    border-radius: 16px;
+    background-color: #3882f6;
+    margin: 128px 512px;
+    padding: 32px 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bigger_button{
+    border: white solid 2px;
+}
+
+.heading_button{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
 }
